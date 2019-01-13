@@ -59,7 +59,8 @@ class PurchaseRequest extends AbstractRequest
     {
         $uri = $this->createUri('partner/check_cp_code');
         $response = $this->httpClient
-            ->post($uri, $this->createHeaders(), $data)
+            ->post($uri, $this->createHeaders())
+            ->setBody(json_encode($data), 'application/json')
             ->send();
 
         $data = json_decode($response->getBody(true), true);

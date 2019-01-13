@@ -59,7 +59,8 @@ class PayoutRequest extends AbstractRequest
     {
         $uri = $this->createUri('partner/payout');
         $response = $this->httpClient
-            ->post($uri, $this->createHeaders(), $data)
+            ->post($uri, $this->createHeaders())
+            ->setBody(json_encode($data), 'application/json')
             ->send();
 
         $data = json_decode($response->getBody(true), true);
