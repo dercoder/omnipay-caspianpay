@@ -1,0 +1,9 @@
+HTTP/2 200
+cache-control: no-cache, private
+content-type: application/json
+x-ratelimit-limit: 60
+x-ratelimit-remaining: 59
+date: Sun, 13 Jan 2019 13:41:38 GMT
+server: LiteSpeed
+
+{"error":404,"message":"Token not founded"}
