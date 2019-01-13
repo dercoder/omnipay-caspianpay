@@ -1,5 +1,5 @@
 {
-  "name": "dercoder/omnipay-caspainpay",
+  "name": "dercoder/omnipay-caspianpay",
   "type": "library",
   "description": "CaspianPay gateway for Omnipay payment processing library",
   "keywords": [
@@ -8,10 +8,10 @@
     "omnipay",
     "pay",
     "payment",
-    "caspainpay",
+    "caspianpay",
     "purchase"
   ],
-  "homepage": "https://github.com/dercoder/omnipay-caspainpay",
+  "homepage": "https://github.com/dercoder/omnipay-caspianpay",
   "license": "MIT",
   "authors": [
     {
